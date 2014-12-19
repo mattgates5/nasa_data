@@ -7,10 +7,8 @@ Gem::Specification.new do |spec|
   spec.name          = "nasa_data"
   spec.version       = NasaData::VERSION
   spec.authors       = ["Matt Gates"]
-  spec.email         = ["mgates@marketo.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Gem for accessing NASA's Data API}
+  spec.homepage      = "http://github.com/mattgates5/nasa_data"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +18,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "json", "~> 1.8"
 end
